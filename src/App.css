@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  
+  align-items: center;
+  
+  background-color: #f0f2f5;
+  flex-direction: column;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

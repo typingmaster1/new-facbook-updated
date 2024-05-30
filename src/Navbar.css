@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18191a;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar-left, .navbar-center, .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    color: #b0b3b8;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-icon.active {
+    color: #2e89ff;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+  }
+  
+  .search-bar input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  .search-icon {
+    color: #b0b3b8;
+  }
+  
+  .navbar-profile-pic {
+    position: relative;
+  }
+  
+  .navbar-profile-pic img {
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .notification-bubble {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  
