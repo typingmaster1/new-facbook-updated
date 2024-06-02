@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faTv, faStore, faUsers, faGamepad, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faTh, faCommentDots, faBell } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import profilePic from './assets/profile.png'; // Your profile picture path
 import './Navbar.css'; // Ensure you create this CSS file
@@ -23,6 +24,18 @@ const Navbar = () => {
         <FontAwesomeIcon icon={faGamepad} size="lg" className="navbar-icon" />
       </div>
       <div className="navbar-right">
+        
+        <div className="icon">
+          <FontAwesomeIcon icon={faTh} />
+        </div>
+        <div className="icon">
+          <FontAwesomeIcon icon={faCommentDots} />
+          <span className="notification-badge">3</span>
+        </div>
+        <div className="icon">
+          <FontAwesomeIcon icon={faBell} />
+          <span className="notification-bubble">20+</span>
+        </div>
         <div className="navbar-profile-pic">
           <img src={profilePic} alt="Profile" />
           <div className="notification-bubble">20+</div>

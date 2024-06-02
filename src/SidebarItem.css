@@ -1,0 +1,15 @@
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar-item .svg-inline--fa {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+img{
+    width: 50px;
+}  
